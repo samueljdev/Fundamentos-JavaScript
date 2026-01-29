@@ -43,3 +43,11 @@ console.log("Booleans ==");
 console.log(5 > 2);
 console.log(30 > 100);
 console.log(typeof true);
+
+// 9 - Comparações
+console.log("Comparações ==");
+console.log(5 <= 5);
+console.log(5 < 5);
+console.log(10 == 10);
+console.log(10 == 9);
+console.log(10 != 9);
