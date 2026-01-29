@@ -67,3 +67,11 @@ console.log(5 > 2 && 2 < 10);
 console.log(5 > 2 && "Matheus" === 1);
 console.log(10 > 2 || 5 > 100);
 console.log(!50 > 10);
+
+// 12 - Empty values
+console.log("Empty values ==");
+console.log(typeof null, typeof undefined);
+console.log(null === undefined);
+console.log(null == undefined);
+console.log(null == false);
+console.log(undefined == false);
