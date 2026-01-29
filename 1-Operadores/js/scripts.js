@@ -27,3 +27,8 @@ console.log(typeof "Opa");
 console.log("Símbolos especiais em string ==");
 console.log("Testando \n quebra de linha");
 console.log("Espaçamento \t de tab");
+
+// 6 - Concatenação
+console.log("Concatenação ==");
+console.log("Oi, " + " tudo " + "bem?");
+console.log(`Testando ` + `Concatenação`);
