@@ -32,3 +32,8 @@ console.log("Espaçamento \t de tab");
 console.log("Concatenação ==");
 console.log("Oi, " + " tudo " + "bem?");
 console.log(`Testando ` + `Concatenação`);
+
+// 7 - Interpolação
+console.log("Interpolação ==");
+console.log(`A soma de 2 + 2 é: ${2 + 2}`);
+console.log(`Podemos executar qualquer coisa ${console.log("teste")}`);
