@@ -16,3 +16,9 @@ console.log("Special Numbers ==");
 console.log(typeof Infinity);
 console.log(12 * "asd");
 console.log(typeof NaN);
+
+// 4 - Strings
+console.log("Strings ==");
+console.log("Um texto");
+console.log(`Mais um texto`);
+console.log(typeof "Opa");
