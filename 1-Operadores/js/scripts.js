@@ -22,3 +22,8 @@ console.log("Strings ==");
 console.log("Um texto");
 console.log(`Mais um texto`);
 console.log(typeof "Opa");
+
+// 5 - Símbolos especiais em string
+console.log("Símbolos especiais em string ==");
+console.log("Testando \n quebra de linha");
+console.log("Espaçamento \t de tab");
