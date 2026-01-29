@@ -58,3 +58,12 @@ console.log(9 == "9");
 console.log(9 === "9");
 console.log(9 != "9");
 console.log(9 !== "9");
+
+// 11 - Operadores logico na prática
+console.log("Operadores logico na prática ==");
+console.log(true && true);
+console.log(true && false);
+console.log(5 > 2 && 2 < 10);
+console.log(5 > 2 && "Matheus" === 1);
+console.log(10 > 2 || 5 > 100);
+console.log(!50 > 10);
