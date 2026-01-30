@@ -44,3 +44,23 @@ function testandoEscopo() {
 console.log(`Y fora da função: ${y}`);
 
 testandoEscopo();
+
+// 4 - Escopo aninhado
+console.log(" ==== Escopo aninhado ====");
+
+let m = 10;
+function escopoAninhado() {
+
+    let m = 20;
+
+    if (true) {
+        let m = 30;
+        console.log(m);
+    }
+
+    console.log(m);
+}
+
+escopoAninhado();
+
+console.log(m);
