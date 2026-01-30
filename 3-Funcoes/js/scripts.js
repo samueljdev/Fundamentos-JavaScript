@@ -100,3 +100,28 @@ console.log(raizQuadrada2(4));
 const helloWorld = () => console.log("Hello!");
 
 helloWorld();
+
+// 7 - Parametro opcional
+console.log(" ==== Parametro opcional ====");
+
+const multiplication = function (n, m) {
+    if (m === undefined) {
+        return n * 2;
+    } else {
+        return m * n;
+    }
+};
+
+console.log(multiplication(4, 4));
+console.log(multiplication(4));
+
+const greeting = (name) => {
+    if (!name) {
+        console.log("Olá!");
+        return;
+    }
+    console.log(`Olá ${name}!`);
+};
+
+greeting();
+greeting("Marcos");
