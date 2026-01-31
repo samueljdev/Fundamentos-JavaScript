@@ -143,3 +143,18 @@ console.log(array.length);
 
 array.push("Dá", "Para", "Inserir", "Vários");
 console.log(array);
+
+// 12 - Shift e unshift
+console.log(" ==== Shift e unshift ====");
+
+const letters = ["a", "b", "c"];
+
+const letter = letters.shift();
+console.log(letter);
+
+console.log(letters);
+
+letters.unshift("z", "x", "y");
+
+letters.unshift("p");
+console.log(letters);
