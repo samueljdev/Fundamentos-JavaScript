@@ -215,3 +215,15 @@ const posts =
 posts.forEach((post) => {
     console.log(`Exibindo post: ${post.title}, da categoria: ${post.category}`);
 });
+
+// 16 - Includes
+console.log(" ==== Includes ====");
+
+const brands = ["BMW", "VW", "Fiat"];
+
+console.log(brands.includes("Fiat"));
+console.log(brands.includes("Kia"));
+
+if (brands.includes("BMW")) {
+    console.log("Há carros da marca BMW!");
+}
