@@ -206,9 +206,10 @@ nums.forEach((n) => {
 
 const posts =
     [
-        { title: "Primeiro post", category: "PHP" },
+        { title: "Primeiro post", category: "C#" },
         { title: "Segundo post", category: "JavaScript" },
         { title: "Terceiro post", category: "Python" },
+        { title: "Quarto post", category: "Java" },
     ];
 
 posts.forEach((post) => {
