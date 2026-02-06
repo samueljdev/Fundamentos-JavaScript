@@ -190,3 +190,6 @@ console.log(subArray2);
 
 const subArray3 = testeSlice.slice(10, 20);
 console.log(subArray3);
+// 2 em diante
+const subArray4 = testeSlice.slice(2);
+console.log(subArray4);
