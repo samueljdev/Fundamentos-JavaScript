@@ -43,3 +43,10 @@ console.log("Interpolação ==");
 
 console.log(`A soma de 2 + 2 é: ${2 + 2}`);
 console.log(`Podemos executar qualquer coisa ${console.log("teste")}`);
+
+// 8 - Booleans
+console.log("Booleans ==");
+
+console.log(5 > 2);
+console.log(30 > 100);
+console.log(typeof true);
