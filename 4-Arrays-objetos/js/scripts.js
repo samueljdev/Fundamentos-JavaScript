@@ -234,3 +234,14 @@ const reverseTest = [1, 2, 3, 4, 5];
 
 reverseTest.reverse();
 console.log(reverseTest);
+
+// 18 - Trim
+console.log(" ==== Trim ====");
+
+const trimTest = "  testando \n   ";
+
+console.log(trimTest.trim());
+console.log(trimTest);
+
+console.log(trimTest.trim().length);
+console.log(trimTest.length);
