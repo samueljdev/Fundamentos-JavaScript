@@ -193,3 +193,24 @@ console.log(subArray3);
 // 2 em diante
 const subArray4 = testeSlice.slice(2);
 console.log(subArray4);
+
+// 15 - Foreach
+console.log(" ==== Foreach ====");
+
+const nums = [1, 2, 3, 4, 5];
+
+nums.forEach((n) => {
+    console.log(`O número atual é: ${n}`);
+});
+
+const posts =
+    [
+        { title: "Primeiro post", category: "C#" },
+        { title: "Segundo post", category: "JavaScript" },
+        { title: "Terceiro post", category: "Python" },
+        { title: "Quarto post", category: "Java" },
+    ];
+
+posts.forEach((post) => {
+    console.log(`Exibindo post: ${post.title}, da categoria: ${post.category}`);
+});
