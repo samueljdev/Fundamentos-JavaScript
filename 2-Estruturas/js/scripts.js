@@ -130,3 +130,12 @@ let x = 10;
 while (x > 5) {
    console.log(`Imprimindo ${x}`);
 } */
+
+// 11 - Do While
+console.log("Do While ==");
+
+let o = 10;
+do {
+    console.log(`Valor de o: ${o}`);
+    o--;
+} while (o > 3);
