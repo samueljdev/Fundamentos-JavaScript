@@ -317,3 +317,20 @@ const somaInfinita2 = (...args) => {
 console.log(somaInfinita2(1, 5, 10));
 
 console.log(somaInfinita2(1, 2, 3, 4, 5, 6, 7, 7, 8, 9));
+
+// 25 - Destructuring objetos
+console.log(" ==== Destructuring objetos ====");
+
+const userDetails = {
+    firstName: "Matheus",
+    lastName: "Battisti",
+    job: "Programador",
+};
+
+const { firstName, lastName, job } = userDetails;
+console.log(firstName, lastName, job);
+
+// renomeando variáveis
+const { firstName: primeiroNome } = userDetails;
+
+console.log(firstName);
