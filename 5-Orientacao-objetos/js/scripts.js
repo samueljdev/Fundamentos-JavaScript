@@ -220,3 +220,22 @@ console.log(myPost.exibirTitulo);
 
 myPost.adicionarTags = "programacao, javascript, js";
 console.log(myPost);
+
+// 14 - Herança
+console.log(" ==== Herança ====");
+
+class Mamifero {
+    constructor(patas) {
+        this.patas = patas;
+    }
+};
+
+class Lobo extends Mamifero {
+    constructor(patas, nome) {
+        super(patas, patas);
+        this.nome = nome;
+    }
+};
+
+const shark = new Lobo(4, "Shark");
+console.log(shark);
