@@ -75,3 +75,21 @@ if (user === "João") {
 if (user === "Maria") {
     console.log("Olá Maria!");
 }
+
+// 8 - Else
+console.log("Else ==");
+
+const loggedIn = false;
+if (loggedIn) {
+    console.log("Usuário autenticado");
+} else {
+    console.log("Usuário não autenticado!");
+}
+
+const q = 10;
+const w = 15;
+if (q > 5 && w > 20) {
+    console.log("Números mais altos!");
+} else {
+    console.log("Os números não são alto suficientes!");
+}
