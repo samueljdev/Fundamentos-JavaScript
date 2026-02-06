@@ -48,3 +48,12 @@ const header = title.parentElement;
 console.log(header);
 
 header.insertBefore(p, title); // visto apenas no elements do navegador
+
+// 7 - AppendChild
+console.log(" ==== AppendChild ====");
+
+const navLinks = document.querySelector("nav ul");
+
+const li = document.createElement("li");
+
+navLinks.appendChild(li); // visto apenas no elements do navegador
