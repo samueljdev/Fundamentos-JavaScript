@@ -30,3 +30,17 @@ console.log(pessoa.getNome());
 
 pessoa.setNome("Henrique Battisti");
 console.log(pessoa.getNome());
+
+// 3 - Prototype
+console.log(" ==== Prototype ====");
+
+const text = "asd";
+console.log(Object.getPrototypeOf(text));
+
+const bool = true;
+console.log(Object.getPrototypeOf(bool));
+
+const arr = [];
+console.log(arr.length);
+
+console.log(Object.getPrototypeOf(arr) === Array.prototype);
