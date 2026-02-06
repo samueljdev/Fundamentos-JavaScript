@@ -346,3 +346,19 @@ console.log(veiculoA, veiculoB, veiculoC);
 // 27 - Json
 console.log(" ==== Json ====");
 const myJson = '{"name": "Matheus","age": 31, "skills": ["PHP", "JavaScript", "Python"]}';
+
+// 28 - Json para objeto e objeto para json
+console.log(" ==== Json para objeto e objeto para json ====");
+
+const myObject = JSON.parse(myJson);
+console.log(myObject);
+
+// json invalido
+const badJson = '{"name": Matheus,"age": 31, "skills": ["PHP", "JavaScript", "Python"]}';
+
+// const myBadObject = JSON.parse(badJson);
+myObject.isOpenToWork = true;
+
+const myNewJson = JSON.stringify(myObject);
+console.log(myNewJson);
+console.log(typeof myNewJson);
