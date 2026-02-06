@@ -51,3 +51,10 @@ console.log("Math ==");
 console.log(Math.max(5, 2, 1, 10));
 console.log(Math.floor(5.14));
 console.log(Math.ceil(5.14));
+
+// 6 - Console
+console.log("Console ==");
+
+console.log("teste");
+console.error("erro!");
+console.warn("aviso!");
