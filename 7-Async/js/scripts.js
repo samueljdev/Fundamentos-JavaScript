@@ -90,3 +90,14 @@ const p3 = new Promise((resolve, reject) => {
 });
 
 Promise.all([p1, p2, p3]).then((values) => console.log(values));
+
+// 7 - Async functions
+console.log(" ==== Async functions ====");
+
+async function somarComDelay(a, b) {
+    return a + b;
+}
+
+somarComDelay(2, 4).then((value) => {
+    console.log(`O valor da soma é: ${value}`);
+});
