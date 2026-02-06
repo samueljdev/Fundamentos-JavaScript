@@ -44,3 +44,17 @@ const arr = [];
 console.log(arr.length);
 
 console.log(Object.getPrototypeOf(arr) === Array.prototype);
+
+// 4 - Mais sobre prototype
+console.log(" ==== Mais sobre prototype ====");
+
+const myObject = {
+    a: "b",
+};
+
+console.log(Object.getPrototypeOf(myObject));
+console.log(Object.getPrototypeOf(myObject) === Object.prototype);
+
+const mySecondObject = Object.create(myObject);
+console.log(mySecondObject);
+console.log(Object.getPrototypeOf(mySecondObject) === myObject);
