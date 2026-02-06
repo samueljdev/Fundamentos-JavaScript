@@ -86,3 +86,11 @@ const obj2 = {
 
 Object.assign(obj2, obj);
 console.log(obj2);
+
+// 8 - Conhecendo melhor os objetos
+console.log(" ==== Conhecendo melhor os objetos ====");
+
+console.log(Object.keys(obj));
+console.log(Object.keys(obj2));
+console.log(Object.keys(person));
+console.log(Object.entries(obj));
