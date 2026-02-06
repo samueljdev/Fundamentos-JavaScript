@@ -57,3 +57,23 @@ if (c > 5) {
 }
 
 // debugger;
+
+// 4 - Tratamento de dados com function
+console.log(" ==== Tratamento de dados com function ====");
+
+function checkNumber(n) {
+    const result = Number(n);
+
+    if (Number.isNaN(result)) {
+        console.log("Valor incorreto!");
+        return null;
+    } else {
+        console.log("Valor correto!");
+        return result;
+    }
+}
+
+checkNumber(5);
+checkNumber("10");
+checkNumber({});
+checkNumber("teste");
