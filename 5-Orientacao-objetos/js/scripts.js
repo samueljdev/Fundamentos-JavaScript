@@ -58,3 +58,18 @@ console.log(Object.getPrototypeOf(myObject) === Object.prototype);
 const mySecondObject = Object.create(myObject);
 console.log(mySecondObject);
 console.log(Object.getPrototypeOf(mySecondObject) === myObject);
+
+// 5 - Classes básicas
+console.log(" ==== Classes básicas ====");
+
+const cachorro = {
+    raca: null,
+};
+
+const pastorAlemao = Object.create(cachorro);
+pastorAlemao.raca = "Pastor Alemão";
+console.log(pastorAlemao);
+
+const bulldog = Object.create(cachorro);
+bulldog.raca = "Bulldog";
+console.log(bulldog);
