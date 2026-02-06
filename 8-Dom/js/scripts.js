@@ -30,3 +30,12 @@ console.log(" ==== Selecionando elementos por classe ====");
 
 const products = document.getElementsByClassName("product");
 console.log(products);
+
+// 5 - Selecionando os elementos por CSS
+console.log(" ==== Selecionando os elementos por CSS ====");
+
+const productsQuery = document.querySelectorAll(".product");
+console.log(productsQuery);
+
+const mainContainer = document.querySelector("#main-container");
+console.log(mainContainer);
