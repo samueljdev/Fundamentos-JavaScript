@@ -24,3 +24,9 @@ console.log(" ==== Selecionando elemento por id ====");
 
 const title = document.getElementById("title");
 console.log(title);
+
+// 4 - Selecionando elementos por classe
+console.log(" ==== Selecionando elementos por classe ====");
+
+const products = document.getElementsByClassName("product");
+console.log(products);
