@@ -152,3 +152,16 @@ for (r; r > 0; r = r - 1) {
     console.log(`O r está diminuindo: ${r}`);
 }
 console.log(r);
+
+// 13 - Identaçao
+console.log("Identaçao ==");
+
+for (let u = 0; u < 10; u++) {
+    if (u * 2 > 10) {
+        console.log(`Maior que 10! ${u}`);
+    } else {
+        if (u / 2 === 0) {
+            console.log("deu 0!");
+        }
+    }
+}
