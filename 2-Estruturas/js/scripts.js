@@ -115,3 +115,18 @@ if (userName === "José") {
 } else {
     console.log("Nenhuma condição aceita!");
 }
+
+// 10 while
+console.log("While ==");
+
+let p = 0;
+while (p < 5) {
+    console.log(`Repetindo ${p}`);
+    p++;
+}
+
+/* loop infinito
+let x = 10;
+while (x > 5) {
+   console.log(`Imprimindo ${x}`);
+} */
