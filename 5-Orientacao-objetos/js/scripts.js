@@ -156,3 +156,21 @@ console.log(c2.motor);
 const c3 = new Caminhao(6, "Azul");
 c3.descreverCaminhao();
 console.log(c3.motor);
+
+// 11 - Override por prototype
+console.log(" ==== Override por prototype ====");
+
+class Humano {
+    constructor(nome, idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+};
+
+const lucas = new Humano("Lucas", 35);
+console.log(lucas);
+
+Humano.prototype.idade = "Não definida";
+
+console.log(lucas.idade);
+console.log(Humano.prototype.idade);
