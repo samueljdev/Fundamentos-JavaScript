@@ -110,3 +110,10 @@ console.log(" ==== CSS com JS ====");
 mainContainer.style.color = "red"; //visto apenas na página do navegador
 mainContainer.style.backgroundColor = "#333"; //visto apenas na página do navegador
 mainContainer.style.paddingBottom = "15px"; // visto apenas na página do navegador
+
+// 14 - Alterando estilos de varios elementos
+console.log(" ==== Alterando estilos de varios elementos ====");
+
+for (const li of listItens) {
+    li.style.backgroundColor = "red";
+}
