@@ -103,3 +103,10 @@ console.log(" ==== Posição do elemento ====");
 
 const product1 = products[0];
 console.log(product1.getBoundingClientRect());
+
+// 13 - CSS com JS
+console.log(" ==== CSS com JS ====");
+
+mainContainer.style.color = "red"; //visto apenas na página do navegador
+mainContainer.style.backgroundColor = "#333"; //visto apenas na página do navegador
+mainContainer.style.paddingBottom = "15px"; // visto apenas na página do navegador
