@@ -60,3 +60,14 @@ a.addEventListener("click", (e) => {
     e.preventDefault();
     console.log("redirecionamento impedido");
 });
+
+// 6 - Eventos de tecla
+console.log(" ==== Eventos de tecla ====");
+
+document.addEventListener("keyup", (e) => {
+    console.log(`Soltou a tecla(keyup) ${e.key}`);
+});
+
+document.addEventListener("keydown", (e) => {
+    console.log(`Pressionou a tecla(keydown) ${e.key}`);
+});
