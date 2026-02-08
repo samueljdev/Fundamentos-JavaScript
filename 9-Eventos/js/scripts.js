@@ -24,3 +24,15 @@ thirdBtn.addEventListener("click", () => {
     console.log("Evento removido");
     secondBtn.removeEventListener("click", imprimirMensagem);
 });
+
+// 3 - Argumento de evento
+console.log(" ==== Argumento do evento ====");
+
+const title = document.querySelector("#my-title");
+
+title.addEventListener("click", (e) => {
+    console.log(e);
+    console.log(e.target);
+    console.log(e.offsetX); // posição do elemento
+    console.log(e.pointerType);
+});
