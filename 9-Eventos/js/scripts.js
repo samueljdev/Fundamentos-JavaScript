@@ -52,3 +52,11 @@ btnInsideContainer.addEventListener("click", (e) => {
     e.stopPropagation();
     console.log("Evento 2");
 });
+
+// 5 - Removendo efeito padrão
+const a = document.querySelector("a");
+
+a.addEventListener("click", (e) => {
+    e.preventDefault();
+    console.log("redirecionamento impedido");
+});
