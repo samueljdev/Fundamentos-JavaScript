@@ -184,3 +184,25 @@ const shirt = new Product("Camisa gola V", 20);
 
 console.log(shirt.productWithDiscount(10));
 console.log(shirt.productWithDiscount(20));
+
+// 9 Heranca
+console.log(" ==== Heranca ====");
+
+class ProductWithAttributes extends Product {
+    constructor(name, price, colors) {
+        super(name, price);
+        this.colors = colors;
+    }
+
+    showColors() {
+        console.log("As cores são: ");
+        this.colors.forEach((color) => {
+            console.log(color);
+        });
+    }
+}
+
+const hat = new ProductWithAttributes("Chapéu", 29.99, ["Preto", "Amarelo", "Verde",]);
+
+console.log(hat.name);
+hat.showColors()
