@@ -75,8 +75,8 @@ const user = {
     },
 };
 
-user.sayUserName()
-user.sayUserNameArrow()
+// user.sayUserName()
+// user.sayUserNameArrow()
 
 // 3 Filter
 console.log(" ==== Filter ====");
@@ -127,3 +127,22 @@ const userName = "Matheus";
 const age = 30;
 
 console.log(`O nome do usuário é ${userName} e ele tem ${age} anos!`);
+
+// 6 Destructuring
+console.log(" ==== Destructuring ====");
+
+const fruits = ["Maçã", "Mamão", "Laranja"];
+
+const [f1, f2, f3] = fruits;
+
+console.log(f1);
+
+const productDetails = {
+    name: "Mouse",
+    price: 39.99,
+    category: "Periféricos",
+    color: "Cinza",
+};
+
+const { name: productName, price: productPrice, category: productCategory, color } = productDetails;
+console.log(`O nome do produto é ${productName}, custa R$${productPrice} e é da cor ${color}`);
