@@ -31,3 +31,49 @@ const nome = "Matheus";
 logName();
 
 console.log(nome);
+
+// 2 Arrow function
+console.log(" ==== Arrow function ====");
+
+const sum = function (a, b) {
+    return a + b;
+};
+
+const arrowSum = (a, b) => a + b; // ñ preciso da palavra function, nem do escopo se for retorno simples
+
+console.log(sum(5, 5));
+console.log(arrowSum(5, 5));
+
+const greeting = (name) => {
+    if (name) {
+        return "Hello " + name + "!";
+    } else {
+        return "Hello!";
+    }
+};
+
+console.log(greeting());
+console.log(greeting("Matheus"));
+
+const user = {
+    name: "Theo",
+    sayUserName() {
+        setTimeout(function () {
+            // encapsulei uma funcao dentro de outra, e a função interna tem um escopo diferente da função externa, 
+            // entao o this da função interna nao tem acesso ao this da função externa            
+            console.log(this);
+            console.log("Username: " + this.name);
+        }, 1000);
+    },
+    sayUserNameArrow() {
+        setTimeout(() => {
+            // a função arrow tem acesso ao escopo da função externa, 
+            // entao o this da função interna tem acesso ao this da função externa
+            console.log(this);
+            console.log("Username: " + this.name);
+        }, 1200);
+    },
+};
+
+user.sayUserName()
+user.sayUserNameArrow()
